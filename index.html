@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="Utf-8">
+<meta http-equiv="X-UA-compatibile" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/5eea253398.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+
+    <div class="container">
+<nav>
+        <img src = "images/Jelena.png" class="logo">
+            <ul>
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class = "header-text">
+            <p>Web developer</p>
+            <h1>Hi, I'm <span>Jelena</span><br> Stanišić from BiH</h1>
+        </div>
+    </div>
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>By teaching programming during the past few
+                    years I found myself in programming language
+                    JavaScript. Every day I try to progress to new
+                    knowledge and do not shy away from learning
+                    and work. I'm looking to expand my knowledge,
+                    while also giving my best to my employer</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>HTML, CSS3, JavaScript</li>
+                        <li><span>Objected oriented programming</span><br>Java, MSSQL, MySql</li>
+                        <li><span>App development</span><br>Building android/IOS app</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-current</span><br>Designing Web/app interfaces</li>
+                        <li><span>2019-2022</span><br>Designing information systems for companies</li>
+                        <li><span>2017-2019</span><br>Building android/IOS app</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>current</span><br>Bachelor in Math and Computer Science</li>
+                        <li><span>2019-2022</span><br>Practise work in BiH Future Fondation</li>
+                        <li><span>2018-2019</span><br>Practise work in Softhouse Bosnian</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!---------------- Services ----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>For me to receive a commission to build a website is an honour and an act of trust.
+                    I understand that a website is central to a businesses brand identity, 
+                    reputation and how customers perceive it. 
+                    Because of this I build not just on looks but also with one eye firmly on the future.</p>
+                <a href="https://github.com/krstic-jelena/city-guide">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa fa-solid fa-desktop"></i>
+                <h2>Building information Systems</h2>
+                <p>Information technology is the study, design, implementation, support, or management of computer-based information systems.
+                 It focuses on maintaining the system's hardware, software, databases, and networks, 
+                 with the end goal of communicating to users how to best utilize its functionality</p>
+                <a href="https://github.com/krstic-jelena/Student-sistem">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa fa-brands fa-whatsapp"></i>
+                <h2>App Design</h2>
+                <p>App Design is very important for companies because he is the mirror yours products.
+                    I believe that good design is based on thorough research and a firm understanding of what the client wants.
+                    The secret to my success has always been my ability to use my technical skill and industry insight to meet digital goals.
+                </p>
+                <a href="https://github.com/krstic-jelena/Bianka">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-----------------Portfolio-------------->
+
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src ="images/work-1.png">
+            <div class="layer">
+                <h3>Student system</h3>
+                <p>This work is combination MySql for database and Java programming language.
+                    This system has the task of simplifying data entry for employers with a simply and good UI. </p>
+                <a href="https://github.com/krstic-jelena/Student-sistem"><i class="fa fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src ="images/work-2.png">
+            <div class="layer">
+                <h3>City Guide</h3>
+                <p>You don't know what to visit in Sarajevo. After this app you won't have enough time to see all.</p>
+                <a href="https://github.com/krstic-jelena/city-guide"><i class="fa fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src ="images/work-3.png">
+            <div class="layer">
+                <h3>Website for dairy</h3>
+                <p>Here you can find basic information, tradition and how to get in touch with the new products of this company
+                </p>
+                <a href="https://github.com/krstic-jelena/Bianka"><i class="fa fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
+      
+    </div>
+     
+    <a href="https://github.com/krstic-jelena?tab=repositories" class="btn">See more</a>
+</div>
+</div>
+
+<!-------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-solid fa-paper-plane"></i>jelenakrstic252@gmail.com</p>
+                <p><i class="fa fa-regular fa-phone"></i>065710617</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/jelena.krstic.779"><i class="fa fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/krstic-jelena"><i class="fa fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jelena-krstic-9a47181a0/?originalSubdomain=ba"><i class="fa fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright reserved.Created by Jelena in 2023 </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxpfAcXkV4P9zjmsTKZS9c2b5tcIsXN3JWs0Z1uLUJFCR5JR-TLom0UfDlCQqTPXWT/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
